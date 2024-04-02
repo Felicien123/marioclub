@@ -1,0 +1,206 @@
+body{
+    /* max-width: 100%; */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #f63232;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 36px;
+}
+
+.banner img{
+    max-width: 100%;
+}
+.welcome{
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(246, 194, 4);
+   
+    z-index: 0;
+}
+.welcome span{
+    font-size: 40px;
+    color: white;
+}
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 100px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+     
+}
+nav ul li a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    background-color: #f63232;
+    color: antiquewhite;
+}
+nav ul li .join{
+    color: #f63232;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color: #f63232;
+    font-size: 48px;
+}
+article p{
+    color: #4b4b4b;
+    line-height: 2em;
+}
+.imagess{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+
+}
+.imagess li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.imagess li img{
+    max-width: 100%;
+}
+.imagess li img:hover{
+    position: relative;
+    top: -8px;
+}
+.joinn{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 50px;
+    color: #4b4b4b;
+}
+.joinn h2{
+    font-size: 36px;
+}
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+form input:focus{
+    border: 4px dashed yellow;
+    outline: none;
+}
+form input:valid{
+    border: 4px solid #71d300;
+}
+footer{
+    background-color: #f63232;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer:hover{
+    background-color: green;
+}
+
+@media screen and (max-width:1400px){
+    
+.welcome{
+    top: 30%;
+    font-size: 20px;
+    padding: 30px;
+}
+}
+@media screen and (max-width:780px){
+    
+    .welcome{
+        top: 30%;
+        font-size: 10px;
+        padding: 10px;
+    }
+    
+nav li{
+    font-size: 20px;
+     
+}
+    }
+    
+    @media screen and (max-width:600px){
+    
+        .welcome{
+            top: 30%;
+            max-width: 100%;
+            font-size: 20px;
+            padding: 5px;
+            position: relative;
+        }
+        
+.imagess li{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+.welcome br{
+    display: none;
+}
+.welcome span{
+    font-size: 20px;
+}     
+
+nav li{
+    width: 25%;
+    display: block;
+    font-size: 24px;
+    
+}
+nav{
+    top: 0;
+}
+
+header h1{
+    display: inline;
+    padding: 3px 6px;
+    border-radius: 12px;
+    font-size: 20px;
+    border: 1px solid white;
+}
+
+header{
+    position: relative;
+}
+
+   }
+    
